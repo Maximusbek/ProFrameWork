@@ -19,7 +19,7 @@ it ('subtraction test',function(){
     homepage.get('https://juliemr.github.io/protractor-demo/');
     homepage.enterFirstNumber('2');
     homepage.enterSecondNumber('3');
-    homepage.clickGo1();
+    homepage.clickGo();
     homepage.verifyResult('5');
 
     browser.sleep(5000);
