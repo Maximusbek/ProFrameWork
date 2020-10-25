@@ -22,7 +22,7 @@ it ('subtraction test',function(){
     homepage.clickGo();
     homepage.verifyResult('5');
 
-    browser.sleep(5000);
+    browser.sleep(7000);
 
 });
 
